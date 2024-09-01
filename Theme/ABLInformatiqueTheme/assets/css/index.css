@@ -1,0 +1,54 @@
+:root {
+    --header-bg-color: #1E2A38; 
+    --body-bg-color: #F4F5F8;   
+    --footer-bg-color: #222429; 
+    --highlight-color: #73A5FF; 
+}
+
+header {
+    background-color: var(--header-bg-color) !important;
+}
+
+body {
+    background-color: var(--body-bg-color) !important;
+}
+
+footer {
+    background-color: var(--footer-bg-color) !important;
+    color: #FFFFFF;
+}
+
+footer a {
+    color: #FFFFFF;
+}
+
+footer a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-decoration-color: var(--highlight-color);
+}
+
+h1 {
+    color: var(--highlight-color);
+}
+
+div:hover {
+    background-color: var(--footer-bg-color);
+}
+
+button {
+    background-color: var(--highlight-color);
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-size 0.5s ease; 
+    background-image: linear-gradient(to right, var(--header-bg-color) 50%, var(--highlight-color) 50%);
+    background-size: 200% 100%; 
+    background-position: right bottom; 
+}
+
+button:hover {
+    background-position: left bottom;
+}
